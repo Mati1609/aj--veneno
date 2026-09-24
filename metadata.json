@@ -1,0 +1,7 @@
+{
+  "name": "Ají Veneno - Ají Chileno Hecho pa' Picar",
+  "description": "Landing page contemporánea, gráfica e irreverente de ají chileno con sabor popular, asados, completos y picante con identidad local.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

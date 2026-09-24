@@ -1,0 +1,366 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Pirata+One&amp;display=swap');
+      .gothic-text {
+        font-family: 'Pirata One', 'UnifrakturMaguntia', serif;
+        font-weight: bold;
+        fill: #FFFFFF;
+      }
+    </style>
+  </defs>
+
+  <!-- Background circular disc -->
+  <circle cx="500" cy="500" r="495" fill="#090909" />
+
+  <!-- Outer white circular stroke ring -->
+  <circle cx="500" cy="500" r="486" fill="none" stroke="#FFFFFF" stroke-width="4.5" />
+
+  <!-- THE SKULL (Red Chili Pepper Cranium) -->
+  <g id="chili-skull">
+    <!-- Main Cranium Path -->
+    <path d="
+      M 430, 480
+      C 410, 440 375, 380 375, 330
+      C 375, 260 440, 225 540, 230
+      C 640, 235 735, 270 765, 340
+      C 785, 385 780, 450 745, 510
+      C 715, 560 690, 570 705, 585
+      C 715, 595 690, 625 660, 625
+      C 630, 625 625, 615 580, 618
+      C 545, 620 520, 630 488, 628
+      C 460, 625 435, 600 440, 580
+      C 445, 565 420, 550 395, 520
+      C 365, 485 410, 475 430, 480
+      Z
+    " fill="#D9222E" />
+
+    <!-- Skull Cheek / Zygomatic bone depth sculpting -->
+    <path d="
+      M 390, 515
+      C 415, 500 435, 520 440, 555
+      C 445, 575 425, 575 405, 560
+      C 385, 545 380, 525 390, 515
+      Z
+    " fill="#B31622" />
+    <path d="
+      M 760, 505
+      C 735, 495 720, 515 715, 550
+      C 710, 570 730, 570 750, 555
+      C 770, 540 770, 515 760, 505
+      Z
+    " fill="#B31622" />
+
+    <!-- Green Stem and Calyx on top of skull -->
+    <g id="calyx-stem">
+      <!-- Leaf / Calyx Base -->
+      <path d="
+        M 525, 238
+        C 545, 215 580, 215 610, 230
+        C 650, 245 700, 275 712, 290
+        C 690, 295 645, 275 625, 280
+        C 605, 285 580, 305 565, 300
+        C 555, 270 535, 255 525, 238
+        Z
+      " fill="#1FA043" />
+      
+      <!-- Second calyx leaf lobe -->
+      <path d="
+        M 535, 238
+        C 560, 230 585, 250 575, 270
+        C 560, 260 545, 255 535, 238
+        Z
+      " fill="#187E35" />
+
+      <!-- The Curved Pepper Stem (hooked spiral to right) -->
+      <path d="
+        M 565, 238
+        C 580, 195 615, 140 670, 115
+        C 725, 90 795, 110 815, 160
+        C 830, 200 805, 235 770, 235
+        C 745, 235 735, 215 750, 195
+        C 765, 175 755, 145 720, 140
+        C 680, 135 640, 170 615, 215
+        C 605, 235 590, 245 565, 238
+        Z
+      " fill="#1FA043" />
+      
+      <!-- Stem highlight -->
+      <path d="
+        M 585, 220
+        C 610, 165 655, 130 710, 125
+        C 755, 120 785, 145 790, 175
+      " fill="none" stroke="#37C35E" stroke-width="7" stroke-linecap="round" />
+    </g>
+
+    <!-- Black Eye Sockets (Menacing angle) -->
+    <!-- Left Eye -->
+    <path d="
+      M 432, 450
+      C 445, 415 510, 420 545, 460
+      C 555, 475 540, 515 500, 520
+      C 455, 525 420, 490 432, 450
+      Z
+    " fill="#090909" />
+    
+    <!-- Right Eye -->
+    <path d="
+      M 718, 440
+      C 705, 405 640, 410 605, 450
+      C 595, 465 610, 505 650, 510
+      C 695, 515 730, 480 718, 440
+      Z
+    " fill="#090909" />
+
+    <!-- Triangular Nasal Cavity (Inverted Heart/Arrow) -->
+    <path d="
+      M 575, 480
+      C 580, 495 595, 525 605, 550
+      C 590, 560 560, 560 545, 550
+      C 555, 525 570, 495 575, 480
+      Z
+    " fill="#090909" />
+
+    <!-- White Skull Teeth (Stylized rounded sharp serrations along maxilla) -->
+    <g fill="#FFFFFF" stroke="#090909" stroke-width="2">
+      <path d="M 488, 620 Q 492, 636 498, 638 Q 504, 636 508, 620 Z" />
+      <path d="M 510, 621 Q 515, 640 522, 641 Q 529, 639 534, 621 Z" />
+      <path d="M 536, 622 Q 542, 643 550, 644 Q 558, 642 562, 622 Z" />
+      <path d="M 564, 622 Q 570, 644 578, 644 Q 586, 642 590, 622 Z" />
+      <path d="M 592, 621 Q 598, 641 606, 641 Q 614, 639 618, 621 Z" />
+      <path d="M 620, 620 Q 625, 637 632, 637 Q 638, 635 642, 620 Z" />
+    </g>
+  </g>
+
+  <!-- GOTHIC TYPOGRAPHY "ají" -->
+  <g id="brand-aji" transform="translate(145, 360)">
+    <!-- "a" -->
+    <g transform="translate(0, 0)">
+      <path d="
+        M 18, 120 
+        L 24, 75 
+        L 0, 75 
+        L 28, 48 
+        C 40, 20 75, 0 115, 0 
+        C 150, 0 175, 20 185, 55 
+        L 185, 125 
+        L 170, 140 
+        L 155, 125 
+        L 155, 105 
+        C 140, 130 110, 145 75, 145 
+        C 35, 145 8, 125 18, 120 
+        Z 
+        M 148, 65 
+        C 145, 38 128, 25 105, 25 
+        C 75, 25 55, 45 55, 75 
+        C 55, 105 75, 122 105, 122 
+        C 128, 122 145, 100 148, 65 
+        Z
+      " fill="#FFFFFF" />
+      <!-- Sharp thorn on left of 'a' -->
+      <polygon points="0,75 28,68 28,82" fill="#FFFFFF" />
+    </g>
+
+    <!-- "j" with curl and accented dot -->
+    <g transform="translate(180, 0)">
+      <!-- J body with spikes -->
+      <path d="
+        M 55, 25 
+        L 60, 65 
+        L 85, 65 
+        L 60, 80 
+        L 60, 175 
+        C 60, 220 30, 245 -20, 245 
+        C -35, 245 -48, 235 -40, 220 
+        C -35, 210 -20, 215 -10, 215 
+        C 15, 215 25, 195 25, 165 
+        L 25, 25 
+        L 10, 25 
+        L 55, 0 
+        Z
+      " fill="#FFFFFF" />
+      <!-- Sharp thorn on right of 'j' stem -->
+      <polygon points="85,65 60,55 60,75" fill="#FFFFFF" />
+      <!-- Pointed Droplet Dot with Accent -->
+      <path d="
+        M 30, -35 
+        L 65, -60 
+        L 60, -25 
+        L 45, -15 
+        Z
+      " fill="#FFFFFF" />
+    </g>
+
+    <!-- "í" with acute accent -->
+    <g transform="translate(265, 0)">
+      <path d="
+        M 22, 25 
+        L 26, 65 
+        L 48, 65 
+        L 26, 78 
+        L 26, 125 
+        L 42, 138 
+        L 0, 138 
+        L 0, 25 
+        L -12, 25 
+        L 22, 0 
+        Z
+      " fill="#FFFFFF" />
+      <polygon points="48,65 26,55 26,75" fill="#FFFFFF" />
+      <!-- Acute Accent -->
+      <polygon points="10,-20 45,-55 35,-15 15,-10" fill="#FFFFFF" />
+    </g>
+  </g>
+
+  <!-- GOTHIC TYPOGRAPHY "veneno®" -->
+  <g id="brand-veneno" transform="translate(145, 640)">
+    <!-- "v" -->
+    <g transform="translate(0, 0)">
+      <path d="
+        M 10, 20 
+        L 45, 0 
+        L 45, 25 
+        L 72, 135 
+        L 88, 185 
+        L 50, 215 
+        L 65, 150 
+        L 105, 0 
+        L 142, 0 
+        L 142, 25 
+        L 105, 145 
+        L 88, 195 
+        L 55, 145 
+        L 30, 25 
+        L 10, 25 
+        Z
+      " fill="#FFFFFF" />
+      <!-- Thorn on v stem -->
+      <polygon points="-5,70 25,60 25,80" fill="#FFFFFF" />
+      <polygon points="148,70 120,60 120,80" fill="#FFFFFF" />
+    </g>
+
+    <!-- "e" -->
+    <g transform="translate(130, 40)">
+      <path d="
+        M 15, 95 
+        C 10, 55 35, 10 80, 0 
+        C 120, -10 150, 20 155, 60 
+        L 155, 80 
+        L 45, 85 
+        C 48, 125 75, 140 105, 140 
+        C 130, 140 145, 125 150, 110 
+        L 175, 120 
+        C 165, 148 138, 168 98, 168 
+        C 45, 168 15, 135 15, 95 
+        Z 
+        M 125, 60 
+        C 125, 30 105, 20 85, 22 
+        C 62, 25 48, 42 45, 62 
+        Z
+      " fill="#FFFFFF" />
+      <!-- Middle barbed spur -->
+      <polygon points="178,72 152,65 152,85" fill="#FFFFFF" />
+    </g>
+
+    <!-- "n" -->
+    <g transform="translate(300, 40)">
+      <path d="
+        M 0, 20 
+        L 28, 0 
+        L 28, 65 
+        L 52, 65 
+        L 28, 78 
+        L 28, 165 
+        L 0, 165 
+        L 0, 20 
+        Z 
+        M 28, 65 
+        C 45, 20 80, 0 115, 0 
+        C 145, 0 165, 20 165, 55 
+        L 165, 165 
+        L 135, 165 
+        L 135, 65 
+        C 135, 35 120, 25 98, 25 
+        C 75, 25 45, 45 28, 75 
+        Z
+      " fill="#FFFFFF" />
+      <polygon points="52,65 28,55 28,75" fill="#FFFFFF" />
+      <polygon points="188,95 165,85 165,105" fill="#FFFFFF" />
+    </g>
+
+    <!-- "e" -->
+    <g transform="translate(470, 40)">
+      <path d="
+        M 15, 95 
+        C 10, 55 35, 10 80, 0 
+        C 120, -10 150, 20 155, 60 
+        L 155, 80 
+        L 45, 85 
+        C 48, 125 75, 140 105, 140 
+        C 130, 140 145, 125 150, 110 
+        L 175, 120 
+        C 165, 148 138, 168 98, 168 
+        C 45, 168 15, 135 15, 95 
+        Z 
+        M 125, 60 
+        C 125, 30 105, 20 85, 22 
+        C 62, 25 48, 42 45, 62 
+        Z
+      " fill="#FFFFFF" />
+      <polygon points="178,72 152,65 152,85" fill="#FFFFFF" />
+    </g>
+
+    <!-- "n" -->
+    <g transform="translate(635, 40)">
+      <path d="
+        M 0, 20 
+        L 28, 0 
+        L 28, 65 
+        L 52, 65 
+        L 28, 78 
+        L 28, 165 
+        L 0, 165 
+        L 0, 20 
+        Z 
+        M 28, 65 
+        C 45, 20 80, 0 115, 0 
+        C 145, 0 165, 20 165, 55 
+        L 165, 165 
+        L 135, 165 
+        L 135, 65 
+        C 135, 35 120, 25 98, 25 
+        C 75, 25 45, 45 28, 75 
+        Z
+      " fill="#FFFFFF" />
+      <polygon points="52,65 28,55 28,75" fill="#FFFFFF" />
+      <polygon points="188,95 165,85 165,105" fill="#FFFFFF" />
+    </g>
+
+    <!-- "o" -->
+    <g transform="translate(805, 40)">
+      <path d="
+        M 15, 85 
+        C 15, 35 45, 0 95, 0 
+        C 145, 0 175, 35 175, 85 
+        C 175, 135 145, 168 95, 168 
+        C 45, 168 15, 135 15, 85 
+        Z 
+        M 142, 85 
+        C 142, 45 122, 25 95, 25 
+        C 68, 25 48, 45 48, 85 
+        C 48, 125 68, 143 95, 143 
+        C 122, 143 142, 125 142, 85 
+        Z
+      " fill="#FFFFFF" />
+      <!-- Sharp spurs on sides of 'o' -->
+      <polygon points="-8,85 18,75 18,95" fill="#FFFFFF" />
+      <polygon points="198,85 172,75 172,95" fill="#FFFFFF" />
+    </g>
+
+    <!-- Registered trademark symbol ® -->
+    <g transform="translate(995, 55)">
+      <circle cx="20" cy="20" r="18" fill="none" stroke="#FFFFFF" stroke-width="3.5" />
+      <text x="20" y="27" font-family="sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" text-anchor="middle">R</text>
+    </g>
+  </g>
+</svg>
